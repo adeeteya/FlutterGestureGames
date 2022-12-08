@@ -1,0 +1,33 @@
+name: gesture_games
+description: Games implemented using simple gestures
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  rive: ^0.9.1
+  flutter_native_splash: ^2.2.10+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/rive/
+
+flutter_native_splash:
+  color: "#1F1930"
+  color_dark: "#1F1930"
+  image: assets/icon.png
+  android_12:
+    image: assets/icon.png
+    color: "#1F1930"
+    image_dark: assets/icon.png
+    color_dark: "#1F1930"
