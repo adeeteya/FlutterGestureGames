@@ -3,18 +3,18 @@ description: Games implemented using simple gestures
 publish_to: 'none'
 version: 1.0.0+1
 environment:
-  sdk: '>=2.18.2 <3.0.0'
+  sdk: '>=3.2.3 <4.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
-  rive: ^0.9.1
-  flutter_native_splash: ^2.2.10+1
+  rive: ^0.12.4
+  flutter_native_splash: ^2.3.8
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.1
+  flutter_lints: ^3.0.1
 
 flutter:
   uses-material-design: true
